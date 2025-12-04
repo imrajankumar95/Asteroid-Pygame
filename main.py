@@ -11,6 +11,8 @@ def main():
     
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     
+    player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, PLAYER_RADIUS, 0)
+    
     while True:
         log_state()
         
@@ -19,7 +21,6 @@ def main():
                 return
             
         screen.fill("black")
-        player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, PLAYER_RADIUS, 0)
         player.update(dt)
         player.draw(screen)
         pygame.display.flip()
