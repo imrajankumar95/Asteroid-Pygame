@@ -47,8 +47,8 @@ python main.py
 
 ## Game Controls
 
-- **Arrow Keys (← →)**: Rotate your spaceship left and right
-- **Arrow Key (↑)**: Move forward in the direction your spaceship is facing
+- **Arrow Keys (a d)**: Rotate your spaceship left and right
+- **Arrow Key (w s)**: Move forward and back in the direction your spaceship is facing
 - **Space**: Fire a shot at asteroids
 - **Close Window**: Exit the game
 
